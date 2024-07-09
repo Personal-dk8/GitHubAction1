@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       logLevel:
-        description: 'Log level'     
+        description: 'Enter the environemnt Values (TEST, UAT, PROD)'     
         required: true
         default: 'warning'
       tags:
